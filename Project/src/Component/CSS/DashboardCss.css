@@ -1,0 +1,146 @@
+.sidebar{
+    height: 100vh;
+    width: 281px;
+    background-color: #192655;
+    box-shadow: 2px 0px 5px 0px lightgray;
+}
+.header{
+    height: 50px;
+    width: 100% !important;
+    box-shadow: 2px 2px 5px 0px lightgray;
+}
+.menu li {
+    padding: 5px 10px;
+    margin: 5px 0;
+    transition: all 0.3s;
+    border-radius: 3px;
+    font-weight: bold;
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+}
+.menu li:hover{
+    background-color: white;
+    color: #192655 !important;
+}
+.active li{
+    background-color: white;
+    color: #192655 !important;
+    font-weight: bold;
+}
+.search{
+    border-radius: 20px !important;
+    border: none !important;
+    border: 1px solid rgb(88, 88, 88) !important;
+    padding: 5px !important;
+}
+.search:focus{
+    outline: none !important;
+}
+.logout{
+    background-color: #192655;
+    color: white;
+}
+.logout:hover{
+    background-color: #192655;
+    color: white;
+    opacity: 0.8;
+}
+.navlink{
+    overflow: hidden;
+    background-color: #586db8ae;
+}
+.navbar {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 53px;
+    background-color: #8fa1e2ab;
+    z-index: 99;
+}
+.main {
+    width: 90%;
+    border-radius: 35px;
+    /* height: 350px; */
+}
+.box {
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: rgba(50, 50, 93, 0.024) 0px 2px 5px -1px, rgba(0, 0, 0, 0.05) 0px 1px 3px -1px;
+    position: relative;
+    background: rgba(55, 111, 208, 0.125);
+    color: rgb(55, 111, 208);
+}
+.conta {
+    width: 100%;
+    display: flex;
+    justify-content:space-around;
+}
+.line{
+    background-color: #192655;
+}
+.line:hover{
+    background-color: #192655;
+}
+
+
+
+
+
+
+/* .header {
+	height: 4rem !important;
+	margin: 0.5rem 0;
+}
+.main-conatiner {
+	height: 100%;
+	display: flex;
+}
+.css-1x7skt0 {
+	background-color: #f4f5fa !important;
+	justify-content: center !important;
+	box-shadow: none !important;
+}
+.css-hip9hq-MuiPaper-root-MuiAppBar-root {
+	background-color: #f4f5fa !important;
+	box-shadow: none !important;
+	justify-content: center !important;
+}
+.header-items {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-right: 0.5rem;
+}
+.menus-items {
+	text-decoration: none;
+	color: black;
+	padding-right: 1.5rem;
+}
+.css-kk1bwy-MuiButtonBase-root-MuiMenuItem-root:hover {
+	background-color: #c5a7fe !important;
+	transition: all 0.1s !important;
+}
+.css-l9sr4b-MuiBadge-root {
+	margin-right: 16px !important;
+}
+.css-vpkae3 {
+	padding-top: 16px !important;
+	padding-bottom: 24px !important;
+	padding-left: 15px !important;
+	padding-right: 0px !important;
+}
+.css-5f9ccf {
+	padding: 8px 20px !important;
+}
+.css-mtv83c {
+	margin-left: 15px !important;
+}
+.css-16a9ube-MuiButtonBase-root-MuiMenuItem-root {
+	font-size: 0.95rem !important;
+}
+.search-bar {
+	margin: 0 15px !important;
+} */
